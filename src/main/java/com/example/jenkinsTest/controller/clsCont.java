@@ -30,4 +30,10 @@ public class clsCont {
 		
 	}
 	
+	@GetMapping("/stringTest")
+	public String test1() {
+		return "my keyboard buttons are so small";
+	}
+	
+	
 }
